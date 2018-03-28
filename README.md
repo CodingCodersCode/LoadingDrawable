@@ -1,5 +1,31 @@
 
 ## LoadingDrawable: Android cool animation collection
+
+
+## 此项目为fork源项目得到，仅仅创建了gradle依赖，用于方便需要的人使用，其他所有权益均归属于源项目及源项目作者，望周知！
+## 如果需要本人删除此依赖，请通知我，我会及时删除，谢谢！
+
+# Step1:Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+# Step 2. Add the dependency
+
+```
+dependencies {
+	        compile 'com.github.CodingCodersCode:LoadingDrawable:v1.0'
+	}
+
+```
+
+
+
+
 [前言](http://www.jianshu.com/p/6e0ac5af4e8b)&nbsp;&nbsp;&nbsp;
 [CircleRotate源码解析](http://www.jianshu.com/p/1c3c6fc1b7ff)&nbsp;&nbsp;&nbsp;
 [Fish源码解析](http://blog.csdn.net/XSF50717/article/details/51494266)<br/>
